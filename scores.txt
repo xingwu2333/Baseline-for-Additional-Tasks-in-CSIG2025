@@ -1,0 +1,9 @@
+F1_score: 0.6428
+Track_accuracy: 0
+Track_completeness: 3
+Final_score: 67.28
+
+Recall value: 0.6141
+Precision value: 0.6742
+Track accuracy value: 0.6742
+Track completeness value: 0.6044
