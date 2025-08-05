@@ -2,10 +2,10 @@ This is the baseline for additional tasks of “The 6th Chinese Conference on Ch
 
 track.py: Track the detection results.
 Relevant parameters: 
-max_age=30, # Maximum unmatched lifetime 
-min_hits=1, # Minimum number of hits 
-iou_threshold=11, # Correlation threshold 
-max_gap=1, # Maximum number of frames between correlations
+max_age=30, # Maximum unmatched lifetime. 
+min_hits=1, # Minimum number of hits. 
+iou_threshold=11, # Correlation threshold. 
+max_gap=1, # Maximum number of frames between correlations.
 
 merge_tracks.py: Merge tracks on tracking results to improve track completeness and score, use on demand.
 
