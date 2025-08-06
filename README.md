@@ -13,7 +13,7 @@ This repository provides a baseline for the additional tasks of the **CSIG 2025 
   **Key Parameters:**
   - `max_age = 30` → Maximum number of frames an unmatched track is kept.
   - `min_hits = 1` → Minimum number of detections before a track is confirmed.
-  - `iou_threshold = 11` → IOU threshold used for data association.
+  - `iou_threshold = 11` → Threshold used for data association.
   - `max_gap = 1` → Maximum gap (in frames) allowed between associations.
 
 - **`merge_tracks.py`**  
