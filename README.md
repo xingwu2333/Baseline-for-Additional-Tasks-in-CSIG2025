@@ -20,7 +20,7 @@ This repository provides a baseline for the additional tasks of the **CSIG 2025 
   Optionally merge fragmented tracks to enhance continuity and improve scoring. Use as needed.
 
 - **`val_scores.txt`**  
-  Validation set performance scores one the official competition platform.
+  Validation set performance scores on the official competition platform.
 
 ---
 
