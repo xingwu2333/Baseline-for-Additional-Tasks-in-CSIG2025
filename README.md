@@ -1,7 +1,7 @@
-# 🎯 Baseline for Detection-Based Tracking  
-**6th Chinese Conference on China Society of Image and Graphics (CSIG) 2025 – Additional Tasks**
+# 🎯 Baseline for additional tasks 
+**The 6th Chinese Conference on China Society of Image and Graphics (CSIG) 2025 – Additional Tasks**
 
-This repository provides a baseline for the additional tasks of the **CSIG 2025 Challenge**, using a **Detection-Based Tracking** approach. The detection results are obtained via the official toolkit of the challenge.
+This repository provides a baseline for the additional tasks of the **CSIG 2025 Challenge**, using a **Detection-Based Tracking** approach. The detection results are obtained via the official toolkit of the challenge(https://github.com/TinaLRJ/DeepPro).
 
 ---
 
@@ -20,7 +20,7 @@ This repository provides a baseline for the additional tasks of the **CSIG 2025 
   Optionally merge fragmented tracks to enhance continuity and improve scoring. Use as needed.
 
 - **`val_scores.txt`**  
-  Validation set performance scores from the official competition platform.
+  Validation set performance scores one the official competition platform.
 
 ---
 
@@ -29,4 +29,4 @@ This repository provides a baseline for the additional tasks of the **CSIG 2025 
 Install the following Python packages:
 
 ```bash
-pip install filterpy scipy
+pip install filterpy scipy collections
