@@ -1,19 +1,32 @@
-This is the baseline for additional tasks of “The 6th Chinese Conference on China Society of lmage and Graphics 2025” using Detection-based Tracking model, and detection results are obtained through the detection algorithm of the official toolkit of the challenge.
+# 🎯 Baseline for Detection-Based Tracking  
+**6th Chinese Conference on China Society of Image and Graphics (CSIG) 2025 – Additional Tasks**
 
-track.py: Track the detection results.
+This repository provides a baseline for the additional tasks of the **CSIG 2025 Challenge**, using a **Detection-Based Tracking** approach. The detection results are obtained via the official toolkit of the challenge.
 
-Relevant parameters: 
+---
 
-max_age=30, # Maximum unmatched lifetime. 
+## 📁 File Descriptions
 
-min_hits=1, # Minimum number of hits. 
+- **`track.py`**  
+  Performs object tracking based on the provided detection results.
 
-iou_threshold=11, # Correlation threshold. 
+  **Key Parameters:**
+  - `max_age = 30` → Maximum number of frames an unmatched track is kept.
+  - `min_hits = 1` → Minimum number of detections before a track is confirmed.
+  - `iou_threshold = 11` → IOU threshold used for data association.
+  - `max_gap = 1` → Maximum gap (in frames) allowed between associations.
 
-max_gap=1, # Maximum number of frames between correlations.
+- **`merge_tracks.py`**  
+  Optionally merge fragmented tracks to enhance continuity and improve scoring. Use as needed.
 
-merge_tracks.py: Merge tracks on tracking results to improve track completeness and score, use on demand.
+- **`val_scores.txt`**  
+  Validation set performance scores from the official competition platform.
 
-val_scores.txt: Performance score of the validation set on the competition platform.
+---
 
-Requirement: filterpy, scipy, collections, etc.
+## 💡 Requirements
+
+Install the following Python packages:
+
+```bash
+pip install filterpy scipy
