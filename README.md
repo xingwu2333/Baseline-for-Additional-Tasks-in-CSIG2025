@@ -29,6 +29,7 @@ This repository provides a baseline for the additional tasks of the **CSIG 2025 
 This baseline is intended for quick-start and reference.
 
 For best performance, feel free to tune parameters or enhance the track merging logic.
+
 ---
 
 ## 💡 Requirements
