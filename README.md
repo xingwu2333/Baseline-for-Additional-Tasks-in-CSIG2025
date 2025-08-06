@@ -24,19 +24,18 @@ This repository provides a baseline for the additional tasks of the **CSIG 2025 
 
 ---
 
+## 📌 Notes
+
+This baseline is intended for quick-start and reference.
+
+For best performance, feel free to tune parameters or enhance the track merging logic.
+---
+
 ## 💡 Requirements
 
 Install the following Python packages:
 
 ```bash
 pip install filterpy scipy collections
-'''
-Also make sure to include standard modules like `collections`.
 
----
 
-## 📌 Notes
-
-This baseline is intended for quick-start and reference.
-
-For best performance, feel free to tune parameters or enhance the track merging logic.
